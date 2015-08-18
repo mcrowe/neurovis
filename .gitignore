@@ -1,0 +1,7 @@
+/.s3-sync-cache
+/.neurovis
+/dist
+/node_modules
+.DS_Store
+sync.js
+Makefile

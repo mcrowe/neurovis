@@ -1,0 +1,31 @@
+{
+  "name": "wp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "content.js",
+  "dependencies": {
+    "hopscotch": "^0.2.5",
+    "jquery": "^2.1.4",
+    "less": "^2.5.1",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.9.3",
+    "css-loader": "^0.15.6",
+    "file-loader": "^0.8.4",
+    "less-loader": "^2.2.0",
+    "s3-sync": "^0.6.0",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "server": "webpack-dev-server --content-base dist/ --progress --colors",
+    "build": "webpack -p",
+    "sync": "node sync.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
