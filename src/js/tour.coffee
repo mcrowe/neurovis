@@ -119,7 +119,7 @@ buildTour = (nv) ->
           showPrevButton: true
         }, {
           title: "This is the end of the tutorial.",
-          content: "<p>Now it's time to play around. Develop some intuition about neural networks. How does the <em>activation</em> change for a neuron as you change the weights of its synapses? How does the <em>computed function</em> change as you modify synapse weights? What types of functions can neural networks compute?</p><p><em><strong>Do:</strong> Create your own awesome neural network. Choose an architecture, modify the weights, and then share it with your friends by copying the URL in the address bar.</em></p>",
+          content: "<p>Now it's time to play around. Develop some intuition about neural networks. How does the <em>activation</em> change for a neuron as you change the weights of its synapses? How does the <em>computed function</em> change as you modify synapse weights? What types of functions can neural networks compute?</p><p><em><strong>Do:</strong> Create your own awesome neural network. Choose an architecture, modify the weights, and then share it with your friends by copying the URL in the address bar.</em></p><p>P.S. The <a href='https://github.com/mcrowe/neurovis' target='_blank'>source code</a> for this simulation is on github.",
           width: 400,
           target: TARGET,
           placement: "bottom",
